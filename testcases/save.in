@@ -1,0 +1,7 @@
+load testcases/all.poke
+fastmove rrrrrlllll
+save /etc/shadow
+save testcases/all.save
+load testcases/all.save
+show more
+quit

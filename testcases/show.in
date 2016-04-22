@@ -1,0 +1,9 @@
+load testcases/all.poke
+show
+move down
+fastmove u
+fastmove rrrrrllllld
+show more
+reset
+show more
+quit

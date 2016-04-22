@@ -1,0 +1,22 @@
+load /etc/shadow
+show
+load testcases/invalid1.poke
+show
+load testcases/valid.poke
+load testcases/invalid2.poke
+load testcases/invalid3.poke
+load testcases/empty1.poke
+load testcases/empty2.poke
+load testcases/empty3.poke
+load testcases/empty4.poke
+load testcases/invalid4.poke
+load testcases/invalid5.poke
+load testcases/invalid6.poke
+load testcases/invalid7.poke
+load testcases/invalid8.poke
+load testcases/invalid9.poke
+load testcases/invalid10.poke
+load testcases/invalid11.poke
+load testcases/gamewon.poke
+move right
+quit

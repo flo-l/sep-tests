@@ -1,0 +1,10 @@
+load testcases/all.poke
+fastmove d
+reset
+fastmove dudududududududududududududududududududududududududududududududududududududududududududududududududr
+move left
+show more
+load testcases/gamewon.poke
+reset
+show more
+quit

@@ -1,0 +1,17 @@
+load testcases/ice.poke
+move right
+move right
+move left
+move up
+move down
+move left
+move down
+move right
+move down
+move left
+move right
+move left
+move up
+move down
+show more
+quit

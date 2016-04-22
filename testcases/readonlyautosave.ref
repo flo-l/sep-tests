@@ -1,0 +1,20 @@
+sep> [ERR] File could not be written.
+##################################
+#ABCDEFGHIJKLMNOPQRSTUVWXYZ*abcde#
+#+<>v^                           #
+#ZYXWVUTSRQPONMLKJIHGFEDCBAxfghij#
+##################################
+sep> [ERR] File could not be written.
+##################################
+#ABCDEFGHIJKLMNOPQRSTUVWXYZoabcde#
+#+<>v^                     *     #
+#ZYXWVUTSRQPONMLKJIHGFEDCBAxfghij#
+##################################
+sep> [ERR] File could not be written.
+##################################
+#ABCDEFGHIJKLMNOPQRSTUVWXYZ*abcde#
+#+<>v^                           #
+#ZYXWVUTSRQPONMLKJIHGFEDCBAxfghij#
+##################################
+sep> [ERR] Wrong parameter.
+sep> Bye!

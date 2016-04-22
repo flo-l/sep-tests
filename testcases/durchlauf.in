@@ -1,0 +1,9 @@
+load testcases/durchlauf.poke
+fastmove ldrruuruldlurrrrrddrllll
+move right
+reset
+fastmove ldrruuruldlurrrrrddrllllr
+move left
+reset
+fastmove ldrruuruldlurrrrrddrllllrlrlrlrlrlrlrlrlrl
+quit
