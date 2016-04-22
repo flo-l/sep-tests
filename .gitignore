@@ -6,5 +6,11 @@ bla.save
 testcases/command_parsing.out
 testcases/readonlyautosave.out
 testcases/valgrind.log
-
+testcases/durchlauf.out
+testcases/filename_valid.out
+testcases/ice.out
+testcases/load.out
+testcases/reset.out
+testcases/save.out
+testcases/show.out
 
