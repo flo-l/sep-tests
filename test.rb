@@ -74,15 +74,15 @@ test_with_args "-s #{TESTCASES}valid.poke", 0
 test_with_args "-m #{TESTCASES}valid.poke", 0
 test_with_args "-s #{TESTCASES}valid.poke -m #{TESTCASES}valid.poke", 0
 
-test_with_args "-m", 1
-test_with_args "-s", 1
-test_with_args "-m -s #{TESTCASES}valid.poke", 1
-test_with_args "#{TESTCASES}valid.poke", 1
-test_with_args "#{TESTCASES}valid.poke -m", 1
+test_with_args "-m", 2
+test_with_args "-s", 2
+test_with_args "-m -s #{TESTCASES}valid.poke", 2
+test_with_args "#{TESTCASES}valid.poke", 2
+test_with_args "#{TESTCASES}valid.poke -m", 2
 
-test_with_args "-s #{TESTCASES}valid.poke -m", 1
-test_with_args "-s #{TESTCASES}valid.poke #{TESTCASES}valid.poke", 1
-test_with_args "-s #{TESTCASES}valid.poke -m #{TESTCASES}valid.poke -m", 1
+test_with_args "-s #{TESTCASES}valid.poke -m", 2
+test_with_args "-s #{TESTCASES}valid.poke #{TESTCASES}valid.poke", 2
+test_with_args "-s #{TESTCASES}valid.poke -m #{TESTCASES}valid.poke -m", 2
 puts "cmd_args ... [OK]"
 
 # run testcases

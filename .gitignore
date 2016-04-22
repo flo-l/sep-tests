@@ -1,0 +1,9 @@
+#Executable
+basic
+
+#Von Ruby-Script erzeugte Files
+testcases/command_parsing.out
+testcases/readonlyautosave.out
+testcases/valgrind.log
+
+
