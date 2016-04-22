@@ -4,6 +4,9 @@
 2. Dateien [downloaden](https://github.com/flo-l/sep-tests/archive/master.zip) und in den Ordner, in dem die `basic` liegt kopieren.
 2. Terminal: `ruby test.rb`
 
+Die Tests funktionieren auf meinem Fedora Linux Rechner, also whs auch auf einem anderen Linux OS.
+Windows und Mac gehen leider eher nicht, aber vllt am pluto :)
+
 ###Beschreibung
 Das sind ein paar Tests die ich für SEP geschrieben habe.
 
