@@ -66,6 +66,7 @@ def test_with_args(args, expected)
 end
 
 # preparation
+`touch #{TESTCASES}readonlyautosave.save.out`
 `chmod 0444 #{TESTCASES}readonlyautosave.save.out`
 
 # cmd tests
@@ -88,6 +89,7 @@ puts "cmd_args ... [OK]"
 # run testcases
 Dir["#{TESTCASES}*.in"].each do |input_file|
   test_name = File.basename(input_file, '.in')
+  puts "Beginning #{test_name}" #User can see which testcase makes problems if he/she runs into endless loop...
   result, info = run_test(test_name)
   puts "#{test_name} ... [#{result}]"
   puts info.chomp if info && info != ""

@@ -2,6 +2,7 @@
 basic
 
 #Von Ruby-Script erzeugte Files
+bla.save
 testcases/command_parsing.out
 testcases/readonlyautosave.out
 testcases/valgrind.log
