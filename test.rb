@@ -1,6 +1,3 @@
-require 'open3'
-require 'tempfile'
-
 BINARY = './basic'
 TESTCASES = 'testcases/'
 
