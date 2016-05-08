@@ -70,6 +70,11 @@ end
 `chmod 0444 #{TESTCASES}readonlyautosave.save.out`
 `touch unopenable.test`
 `chmod -rwx unopenable.test`
+# dynamically create no_eof.in because git could have added line ending during
+# download and use printf instead of echo -ne because ruby sets POSIXLY_CORRECT
+# environment var --> See:
+#https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html
+`printf "quit" > #{TESTCASES}no_eof.in`
 
 # cmd tests
 test_with_args "", 0
