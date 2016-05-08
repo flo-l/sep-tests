@@ -1,4 +1,4 @@
-load /etc/shadow
+load unopenable.test
 show
 load testcases/invalid1.poke
 show

@@ -68,6 +68,8 @@ end
 # preparation
 `touch #{TESTCASES}readonlyautosave.save.out`
 `chmod 0444 #{TESTCASES}readonlyautosave.save.out`
+`touch unopenable.test`
+`chmod -rwx unopenable.test`
 
 # cmd tests
 test_with_args "", 0
