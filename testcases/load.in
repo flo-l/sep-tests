@@ -17,6 +17,7 @@ load testcases/invalid8.poke
 load testcases/invalid9.poke
 load testcases/invalid10.poke
 load testcases/invalid11.poke
+load testcases/invalid12.poke
 load testcases/gamewon.poke
 move right
 quit
