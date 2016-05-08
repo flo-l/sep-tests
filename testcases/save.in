@@ -1,6 +1,6 @@
 load testcases/all.poke
 fastmove rrrrrlllll
-save /etc/shadow
+save unopenable.test
 save testcases/all.save
 load testcases/all.save
 show more

@@ -1,0 +1,8 @@
+load testcases/iceTestNewsgroups.poke
+move right
+move left
+load testcases/iceTestNewsgroups.poke
+fastmove rl
+fastmove lr
+fastmove l
+quit
